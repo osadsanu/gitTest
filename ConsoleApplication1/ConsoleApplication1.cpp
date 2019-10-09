@@ -8,7 +8,11 @@ int main()
     std::cout << "Hello World!\n";
 	std::cout << "Hello Git!\n";
 	std::cout << "Hello From GitHub!\n";
-	std::cout << "Hello Again!\n";
+	
+	for (int i = 0; i < 5; i++) {
+		std::cout << i;
+	}
+
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
